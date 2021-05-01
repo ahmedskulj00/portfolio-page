@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  padding-top: 1.5rem;
+  animation-name: fadeInDown;
+  animation-duration: 1.5s;
+  height: 8rem;
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
