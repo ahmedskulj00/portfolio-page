@@ -35,6 +35,13 @@ h2 {
   animation: fadeInLeft 1.5s;
 }
 
+.socialmedia-icons {
+  height: 50px;
+  width: 50px;
+  margin-top: 15px;
+  margin-left: 5rem;
+}
+
 @keyframes fadeInLeft {
   from {
     opacity: 0;

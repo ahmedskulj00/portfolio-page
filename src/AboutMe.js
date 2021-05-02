@@ -1,5 +1,8 @@
 import React from "react";
 import "./AboutMe.css";
+import Facebook from "./images/facebook.png";
+import Instagram from "./images/instagram.png";
+import LinkedIn from "./images/linkedin-logo.png";
 function AboutMe() {
   return (
     <div className="about-me">
@@ -19,6 +22,15 @@ function AboutMe() {
         <p>Age: 21</p>
         <p>Country of residence: Bosnia and Herzegovina</p>
         <p>Occupation: Student</p>
+        <a href="https://www.facebook.com/ahmed.skulj">
+          <img src={Facebook} alt="" className="socialmedia-icons" />
+        </a>
+        <a href="https://www.instagram.com/ahmedskulj00/">
+          <img src={Instagram} alt="" className="socialmedia-icons" />
+        </a>
+        <a href="https://www.linkedin.com/in/ahmed-skulj-458a26188/">
+          <img src={LinkedIn} alt="" className="socialmedia-icons" />
+        </a>
       </div>
     </div>
   );
