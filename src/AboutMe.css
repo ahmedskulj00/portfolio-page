@@ -1,6 +1,12 @@
 .about-me {
   display: flex;
   justify-content: space-between;
+  height: 500px;
+}
+h1 {
+  border-bottom: 2px solid black;
+  width: 200px;
+  margin-bottom: 1rem;
 }
 
 .profile-photo {

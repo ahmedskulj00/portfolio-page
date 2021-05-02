@@ -9,7 +9,7 @@ function AboutMe() {
         <p>
           Hi, my name is Ahmed Škulj. I am from Bosnia and Herzegovina.
           Currently I am studying Software Engineering at the University of
-          Zenica. I started coding about two years ago, and it since then I made
+          Zenica. I started coding about two years ago, and since then I made
           over 20 different projects, big and small. I prefer building frontend
           minimalistic apps, but I have also worked on some backend projects.
         </p>
