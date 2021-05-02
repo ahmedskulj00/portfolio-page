@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 import AboutMe from "./AboutMe";
 import Skillset from "./Skillset";
 import Hobbies from "./Hobbies";
-
+import Projects from "./Projects";
 function App() {
   return (
     <div className="App">
@@ -12,6 +12,7 @@ function App() {
       <AboutMe />
       <Skillset />
       <Hobbies />
+      <Projects />
     </div>
   );
 }
