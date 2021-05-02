@@ -14,6 +14,11 @@ function AboutMe() {
           frontend minimalistic apps, but I have also worked on some backend
           projects.
         </p>
+        <h2>Short facts about me:</h2>
+        <p>Name: Ahmed Škulj</p>
+        <p>Age: 21</p>
+        <p>Country of residence: Bosnia and Herzegovina</p>
+        <p>Occupation: Student</p>
       </div>
     </div>
   );

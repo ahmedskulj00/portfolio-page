@@ -4,6 +4,7 @@ import Navigation from "./Navigation";
 import AboutMe from "./AboutMe";
 import Skillset from "./Skillset";
 import Hobbies from "./Hobbies";
+
 function App() {
   return (
     <div className="App">

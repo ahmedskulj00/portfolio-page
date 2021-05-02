@@ -1,12 +1,12 @@
 .skillset {
-  height: 600px;
+  height: 550px;
 }
 .title-skill p {
   font-size: 2.5rem;
   margin-left: 70px;
   font-weight: bolder;
   border-bottom: 2px solid black;
-  width: 180px;
+  width: 500px;
   animation: fadeInLeft 1.5s;
 }
 .grid-container {

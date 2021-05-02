@@ -5,10 +5,16 @@
 }
 h1 {
   border-bottom: 2px solid black;
-  width: 200px;
+  width: 220px;
   margin-bottom: 1rem;
+  font-weight: bolder;
 }
-
+h2 {
+  border-bottom: 2px solid black;
+  width: 350px;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
 .profile-photo {
   background: url(./images/My_photo.png);
   height: 400px;
@@ -22,7 +28,7 @@ h1 {
 }
 
 .aboutme-section {
-  padding-top: 20vh;
+  padding-top: 1vh;
   width: 80vh;
   margin-right: 60px;
   font-weight: bold;
