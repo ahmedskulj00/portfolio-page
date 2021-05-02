@@ -1,0 +1,46 @@
+.hobbies-title p {
+  font-size: 2.5rem;
+  margin-left: 70px;
+  font-weight: bolder;
+  border-bottom: 2px solid black;
+  width: 250px;
+  animation: fadeInLeft 1.5s;
+}
+.grid-container-hobbies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 5rem;
+  padding: 50px 0;
+}
+.grid-container-hobbies a {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  animation: fadeInLeft 1.5s;
+}
+.grid-container-hobbies a:hover {
+  transform: scale(1.1);
+}
+.name {
+  height: 200px;
+}
+#gaming {
+  content: url(./images/console.png);
+}
+#basketball {
+  content: url(./images/basketball-ball-variant.png);
+}
+#photography {
+  content: url(./images/photo-camera-vintage.png);
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
