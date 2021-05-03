@@ -3,10 +3,13 @@ import "./AboutMe.css";
 import Facebook from "./images/facebook.png";
 import Instagram from "./images/instagram.png";
 import LinkedIn from "./images/linkedin-logo.png";
+import My_photo from "./images/My_photo.png";
 function AboutMe() {
   return (
     <div className="about-me">
-      <div className="profile-photo"></div>
+      <div id="my-photo">
+        <img src={My_photo} alt="" className="profile-photo" />
+      </div>
       <div className="aboutme-section">
         <h1>Who am I?</h1>
         <p>

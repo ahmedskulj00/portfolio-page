@@ -67,3 +67,27 @@
     transform: translateX(0);
   }
 }
+@media only screen and (max-width: 414px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .title-skill p {
+    font-size: 1.7rem;
+    width: 94%;
+    margin-left: 0px;
+  }
+  .skillset {
+    height: 100%;
+  }
+  .grid-container a {
+    filter: grayscale(0);
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .title-skill p {
+    margin-left: 30px;
+  }
+  .grid-container a {
+    filter: grayscale(0);
+  }
+}
