@@ -57,7 +57,7 @@ h2 {
 @media only screen and (max-width: 767px) {
   .about-me {
     flex-direction: column;
-    margin-bottom: 65vh;
+    margin-bottom: 83vh;
   }
   .socialmedia-icons {
     margin-left: 4rem;
