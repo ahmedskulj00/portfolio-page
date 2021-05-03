@@ -14,6 +14,7 @@ function Projects() {
           <article id="3685" class="location-listing">
             <a
               class="location-title"
+              id="weather-app-image"
               href="https://github.com/ahmedskulj00/Javascript-WeatherApp"
             >
               WeatherApp

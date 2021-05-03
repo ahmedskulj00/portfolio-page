@@ -44,7 +44,7 @@
     transform: translateX(0);
   }
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 767px) {
   .hobbies-title p {
     margin-left: 0px;
     font-size: 1.7rem;
@@ -57,6 +57,6 @@
 }
 @media only screen and (min-witdh: 768px) and (max-width: 1200px) {
   .hobbies-title p {
-    margin-left: 30px;
+    margin-left: 25px;
   }
 }
