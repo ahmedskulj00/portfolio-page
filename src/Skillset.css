@@ -67,6 +67,11 @@
     transform: translateX(0);
   }
 }
+@media only screen and (max-width: 320px) {
+  .title-skill p {
+    margin-top: 90vh;
+  }
+}
 @media only screen and (max-width: 767px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
