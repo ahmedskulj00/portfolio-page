@@ -47,7 +47,7 @@ function Projects() {
               class="location-title"
               href="https://github.com/ahmedskulj00/Javascript-TicTacToe"
             >
-              TicTacToe
+              BudgetApp
             </a>
 
             <div class="location-image">
