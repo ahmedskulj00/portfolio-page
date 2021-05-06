@@ -6,6 +6,7 @@ import Skillset from "./Skillset";
 import Hobbies from "./Hobbies";
 import Projects from "./Projects";
 import Contacts from "./Contacts";
+import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Hobbies />
       <Projects />
       <Contacts />
+      <Footer />
     </div>
   );
 }

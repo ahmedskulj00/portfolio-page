@@ -1,0 +1,20 @@
+.footer {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.footer p {
+  text-align: center;
+}
+.socialmedia-icons {
+  height: 50px;
+  width: 50px;
+  margin: 1rem;
+}
+.socialmedia-icons:hover {
+  transform: scale(1.1);
+}

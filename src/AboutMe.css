@@ -37,13 +37,6 @@ h2 {
   animation: fadeInLeft 1.5s;
 }
 
-.socialmedia-icons {
-  height: 50px;
-  width: 50px;
-  margin-top: 15px;
-  margin-left: 5rem;
-}
-
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -54,18 +47,11 @@ h2 {
     transform: translateX(0);
   }
 }
-@media only screen and (max-width: 320px) {
-  .socialmedia-icons {
-    margin-bottom: 0rem;
-  }
-  .aboutme-section {
-    margin-bottom: 0.5vh;
-  }
-}
+
 @media only screen and (max-width: 767px) {
   .about-me {
     flex-direction: column;
-    margin-bottom: 83vh;
+    margin-bottom: 60vh;
   }
   .socialmedia-icons {
     margin-left: 4rem;
@@ -76,9 +62,12 @@ h2 {
   h2 {
     font-size: 2rem;
   }
+  h1 {
+    font-size: 2rem;
+  }
   .profile-photo {
-    height: 99%;
-    width: 99%;
+    height: 90%;
+    width: 90%;
     display: block;
     margin: 0 auto;
   }
