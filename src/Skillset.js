@@ -4,7 +4,9 @@ function Skillset() {
   return (
     <div className="skillset">
       <div className="title-skill">
-        <p>Technologies I work with:</p>
+        <p>
+          Technologies I <span> work</span> with:
+        </p>
       </div>
       <div className="grid-container">
         <div className="score">

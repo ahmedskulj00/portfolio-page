@@ -9,7 +9,9 @@ function AboutMe() {
         <img src={My_photo} alt="" className="profile-photo" />
       </div>
       <div className="aboutme-section">
-        <h1>Who am I?</h1>
+        <h1>
+          <span>Who</span> am I ?
+        </h1>
         <p>
           Hi, my name is Ahmed Škulj. I am from Bosnia and Herzegovina.
           Currently I am studying Software Engineering at the University of
@@ -18,7 +20,9 @@ function AboutMe() {
           frontend minimalistic apps, but I have also worked on some backend
           projects.
         </p>
-        <h2>Short facts about me:</h2>
+        <h2>
+          Short facts <span> about</span> me:
+        </h2>
         <p>Name: Ahmed Škulj</p>
         <p>Age: 21</p>
         <p>Country of residence: Bosnia and Herzegovina</p>

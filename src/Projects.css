@@ -1,5 +1,5 @@
 #title-projects {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid red;
   margin-left: 70px;
   animation: fadeInLeft 1.5s;
 }
@@ -64,8 +64,12 @@
 }
 #github a {
   text-decoration: none;
+  color: red;
 }
 #weather-app-image:hover {
+  color: white;
+}
+#react-todo-image:hover {
   color: white;
 }
 @keyframes fadeInLeft {

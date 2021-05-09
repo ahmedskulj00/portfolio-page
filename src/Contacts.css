@@ -35,8 +35,8 @@
   animation: fadeInLeft 1.5s;
 }
 #submit-button:hover {
-  color: black;
-  background-color: white;
+  color: red;
+  background-color: black;
 }
 label {
   animation: fadeInLeft 1.5s;
@@ -63,7 +63,7 @@ input:focus {
   #contact-title {
     margin-left: 0px;
     font-size: 1.5rem;
-    width: 95%;
+    width: 80%;
   }
   #contact {
     width: 95%;

@@ -8,7 +8,9 @@ function Projects() {
   return (
     <div>
       <div class="child-page-listing">
-        <h2 id="title-projects">Some of my projects:</h2>
+        <h2 id="title-projects">
+          Some of my <span> projects</span>:
+        </h2>
 
         <div class="grid-container-projects">
           <article id="3685" class="location-listing">
@@ -29,6 +31,7 @@ function Projects() {
 
           <article id="3688" class="location-listing">
             <a
+              id="react-todo-image"
               class="location-title"
               href="https://github.com/ahmedskulj00/react-todo"
             >
@@ -45,7 +48,7 @@ function Projects() {
           <article id="3691" class="location-listing">
             <a
               class="location-title"
-              href="https://github.com/ahmedskulj00/Javascript-TicTacToe"
+              href="https://github.com/ahmedskulj00/Javascript-BudgetApp"
             >
               BudgetApp
             </a>

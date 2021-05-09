@@ -4,7 +4,9 @@ function Hobbies() {
   return (
     <div>
       <div className="hobbies-title">
-        <p>My hobbies:</p>
+        <p>
+          My <span> hobbies</span>:
+        </p>
       </div>
       <div className="grid-container-hobbies">
         <div className="name">

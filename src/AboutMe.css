@@ -4,13 +4,13 @@
   height: 550px;
 }
 h1 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid red;
   width: 220px;
   margin-bottom: 1rem;
   font-weight: bolder;
 }
 h2 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid red;
   width: 350px;
   margin-bottom: 1rem;
   font-weight: bolder;

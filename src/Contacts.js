@@ -10,7 +10,9 @@ function Contacts() {
 
   return (
     <div>
-      <h1 id="contact-title">Feel free to contact me:</h1>
+      <h1 id="contact-title">
+        Feel free to <span> contact</span> me:
+      </h1>
       <div id="contact-form">
         <form onSubmit={handleSubmit} id="contact">
           <label for="full-name">Full Name</label>
