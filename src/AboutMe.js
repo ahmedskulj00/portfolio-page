@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./AboutMe.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import My_photo from "./images/My_photo.png";
 function AboutMe() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="about-me">
+    <div className="about-me" data-aos="fade-right">
       <div id="my-photo">
         <img src={My_photo} alt="" className="profile-photo" />
       </div>

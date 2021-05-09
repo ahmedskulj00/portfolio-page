@@ -1,15 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contacts.css";
 import { useForm, ValidationError } from "@formspree/react";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Contacts() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   const [state, handleSubmit] = useForm("xeqvelkg");
   if (state.succeeded) {
     return <p>Thank you!</p>;
   }
 
   return (
-    <div>
+    <div data-aos="fade-right">
       <h1 id="contact-title">
         Feel free to <span> contact</span> me:
       </h1>

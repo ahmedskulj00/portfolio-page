@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Skillset.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Skillset() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="skillset">
+    <div className="skillset" data-aos="fade-right">
       <div className="title-skill">
         <p>
           Technologies I <span> work</span> with:

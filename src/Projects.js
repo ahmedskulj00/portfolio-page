@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Projects.css";
 import Weather_app_logo from "./images/weather_app.png";
 import React_todo_logo from "./images/react-todo.png";
 import TicTacToe_logo from "./images/Budget-app.png";
 import Timeline_logo from "./images/timeline.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Projects() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div>
+    <div data-aos="fade-right">
       <div class="child-page-listing">
         <h2 id="title-projects">
           Some of my <span> projects</span>:

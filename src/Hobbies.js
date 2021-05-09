@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Hobbies.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function Hobbies() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div>
+    <div data-aos="fade-right">
       <div className="hobbies-title">
         <p>
           My <span> hobbies</span>:

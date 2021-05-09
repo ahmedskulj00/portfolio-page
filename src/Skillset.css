@@ -7,7 +7,7 @@
   font-weight: bolder;
   border-bottom: 2px solid red;
   width: 500px;
-  animation: fadeInLeft 1.5s;
+  /*animation: fadeInLeft 1.5s;*/
 }
 .grid-container {
   display: grid;
@@ -21,7 +21,7 @@
   width: 100px;
   object-fit: contain;
   filter: grayscale(100%);
-  animation: fadeInLeft 1.5s;
+  /*animation: fadeInLeft 1.5s;*/
 }
 .grid-container a:hover {
   filter: grayscale(0);
