@@ -8,7 +8,7 @@ This is my portfolio page. You can find out more information about me as well as
 4. React Bootstrap
 5. Fromspree (for forms)
 6. Netlify (for hosting)
-### Screenshoot of the page
-![Screenshot_3](https://user-images.githubusercontent.com/66512187/116889249-a31c2000-ac2c-11eb-9e7f-72dcd55f8fd7.png)
+### Screenshoot of about me section
+![Screenshot_1](https://user-images.githubusercontent.com/66512187/117584969-3a431500-b110-11eb-8732-1dd8110c77db.png)
 
 ### Feel free to check the site https://www.ahmedskulj.com
